@@ -1,0 +1,32 @@
+CSS TRANSİTİON---geçiş
+body {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  transition-property: background-color;
+  transition-duration: 5s;
+  transition-timing-function: ease-in;
+  transition: all 2s ease-out;
+}
+.box:hover {
+  background-color: red;
+  border-radius: 50%;
+  border: 5px solid white;
+  width: 300px;
+  height: 300px;
+  transition-delay: 3s;
+  transition-duration: 5s;
+}
+ /* 1 ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+ 2 linear - specifies a transition effect with the same speed from start to end
+ 3 ease-in - specifies a transition effect with a slow start
+ 4 ease-out - specifies a transition effect with a slow end
+ 5 ease-in-out - specifies a transition effect with a slow start and end
+ 6 cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function */

@@ -1,0 +1,30 @@
+ANİMATİON---CANLANDIRMA
+body {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.box {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation-name: a1;
+  animation-duration: 2s;
+  /* animation-iteration-count: 2; 2 kez animasyon çalışır */
+  /* animation-iteration-count: infinite; sonsuz çalışır */
+  /* animation-fill-mode: forwards; ileri genişlikte bitiyor */
+  /* animation-fill-mode: backwards; ilk genişlikte bitiyor */
+  /* animation-delay: 2s; 2 saniye sonra çalışır */
+  /* animation-direction: alternate; bastan sona */
+  /* animation-direction: reverse; */
+  /* animation-timing-function: ease-in; giriş yavaş */
+  /* animation: a1 2s 2s 2 forwards; toplu */
+}
+@keyframes a1 {
+  to {
+    width: 500px;
+  }
+}

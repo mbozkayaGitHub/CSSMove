@@ -1,0 +1,61 @@
+KEYFRAMES
+body {
+  background-color: #333333cd;
+}
+.box {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  animation: a1 10s forwards ease-in;
+}
+@keyframes a1 {
+  /* from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 300px;
+    left: 300px;
+  } */
+  0%{
+    top: 0px;
+    left:0;
+    background-color: fuchsia;
+  }
+  25%{
+    top: 100px;
+    left:0;
+    background-color: aqua;
+  }
+  50%{
+    top: 100px;
+    left:100px;
+    background-color: red;
+  }
+  75%{
+    top: 200px;
+    left:100px;
+    background-color: green;
+  }
+  100%{
+    top: 200px;
+    left: 200px;
+    background-color: brown;
+  }
+}
+h1{
+    color: white;
+    position: relative;
+   animation: text_animation 3s ease-in 0s 1 alternate forwards;
+}
+@keyframes text_animation {
+from{
+    left: -300px;
+    top: 0;
+}
+to{
+    left: 0;
+    top: 0;
+}
+}

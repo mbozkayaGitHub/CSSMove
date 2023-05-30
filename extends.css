@@ -1,0 +1,26 @@
+body {
+  background-color: firebrick;
+}
+body div {
+  float: left;
+}
+
+.box, #third, #second, #first {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+
+#first {
+  background-color: navy;
+}
+
+#second {
+  background-color: white;
+}
+
+#third {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=extends.css.map */

@@ -1,0 +1,27 @@
+body {
+    background-color: firebrick;
+    div {
+        float: left;
+    }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+
+#first {
+    @extend .box;
+    background-color: navy;
+}
+#second {
+    @extend .box;
+    background-color: white;
+}
+#third {
+    @extend .box;
+    background-color:yellow;
+}
+
